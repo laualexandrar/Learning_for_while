@@ -3,22 +3,25 @@ package test;
 public class Review {
 
     public static void main(String[] args) {
-        int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int i = 9;
-        System.out.print("The result is: ");
 
-        while (i >= 0) {
-            if (arr[i] % 2 == 0) {
-                if (i > 1) {
-                    System.out.print(arr[i] + ", ");
+        String arr[][] = new String[2][3];
 
-                } else {
-                    System.out.print(arr[i]);
+        arr[0][0] = "Colombia";
+        arr[0][1] = "Brazil";
+        arr[0][2] = "Ecuador";
+        arr[1][0] = "score";
+        arr[1][1] = "score";
+        arr[1][2] = "score";
 
-                }
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
 
             }
-            i--;
+            System.out.print("\n");
         }
+
+
     }
 }
