@@ -1,6 +1,6 @@
 package evenNumbers;
 
-public class evenNumbersWhile {
+public class EvenNumbersWhile {
 
     public static void main(String[] args) {
 

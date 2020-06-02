@@ -1,6 +1,6 @@
 package descendingOrder;
 
-public class descendingOrder {
+public class DescendingOrder {
 
         public static void main(String[] args) {
 
