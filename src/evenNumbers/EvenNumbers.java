@@ -10,11 +10,10 @@ public class EvenNumbers {
         System.out.print("result: ");
 
 
+        for (int i = 0; i <= arr.length - 1; i++) {
 
-        for (int i = 0; i <= arr.length-1 ; i++) {
-
-            if(arr[i] % 2 == 0) {
-                if (i < arr.length-1) {
+            if (arr[i] % 2 == 0) {
+                if (i < arr.length - 1) {
                     System.out.print(arr[i] + ", ");
                 } else {
 

@@ -8,7 +8,7 @@ public class NumsPractice {
 
         for (int i = 100; i >= lim; i--) {
 
-            if(i%2 == 0) {
+            if (i % 2 == 0) {
                 System.out.print(i + " ");
 
             }

@@ -54,7 +54,7 @@ public class Review {
         for (int i = 0; i < total.length; i++) {
             for (int j = 0; j < total.length; j++) {
 
-                System.out.print(sum[i][j]+ numeros[i][j]);
+                System.out.print(sum[i][j] + numeros[i][j]);
 
             }
             System.out.print("\n");

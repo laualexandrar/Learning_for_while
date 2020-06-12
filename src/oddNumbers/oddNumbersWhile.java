@@ -9,7 +9,7 @@ public class oddNumbersWhile {
 
         System.out.print("Result: ");
 
-        while (i <= arr.length-1 ) {
+        while (i <= arr.length - 1) {
 
             if (arr[i] % 2 != 0) {
                 if (i < arr.length - 2) {
