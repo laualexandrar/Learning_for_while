@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec480129-5088-4b3a-9173-aa2de9c94ebe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learningKotlin/ForLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myPrograms/NamesCode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myPrograms/NamesUpper&amp;LoweCaseStringBuilder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myPrograms/NamesUpper&amp;LowerCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rockPaperScissors/RockPaperScissors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rockPaperScissors/RockPaperScissorsKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Casa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Practice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Return&amp;NoReturnValue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningClasses/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningClasses/DrumKit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningClasses/Song.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LearningCode/META-INF/LearningCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/META-INF/LearningCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/descendingOrder/DescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/descendingOrder/DescendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/descendingOrder/DescendingOrderWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/descendingOrder/DescendingOrderWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evenNumbers/EvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/evenNumbers/EvenNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evenNumbers/EvenNumbersDescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/evenNumbers/EvenNumbersDescendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oddNumbers/oddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oddNumbers/oddNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oddNumbers/oddNumbersDescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oddNumbers/oddNumbersDescendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oddNumbers/oddNumbersWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oddNumbers/oddNumbersWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/evenNumbers/evenNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/evenNumbers/evenNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/myPrograms/NamesUpper_LowerCaseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/myPrograms/NamesUpper_LowerCaseKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/rockPaperScissors/RockPaperScissorsKotlinKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/rockPaperScissors/RockPaperScissorsKotlinKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/test/Casa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/test/Casa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/test/CasaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/test/CasaKt.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -56,28 +48,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.myPrograms.NamesUpper_LoweCaseStringBuilderKt">
-    <configuration name="learningKotlin.ForLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.LearningClasses.DrumKitKt">
+    <configuration name="LearningClasses.DogKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LearningCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="learningKotlin.ForLoopKt" />
+      <option name="MAIN_CLASS_NAME" value="LearningClasses.DogKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myPrograms.NamesCodeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="LearningClasses.DrumKitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LearningCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="myPrograms.NamesCodeKt" />
+      <option name="MAIN_CLASS_NAME" value="LearningClasses.DrumKitKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningClasses.SongKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LearningCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="LearningClasses.SongKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rockPaperScissors.RockPaperScissorsKotlinKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LearningCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="rockPaperScissors.RockPaperScissorsKotlinKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LearningClasses.DrumKitKt" />
+        <item itemvalue="Kotlin.LearningClasses.SongKt" />
+        <item itemvalue="Kotlin.LearningClasses.DogKt" />
         <item itemvalue="Kotlin.myPrograms.NamesUpper_LoweCaseStringBuilderKt" />
         <item itemvalue="Kotlin.myPrograms.NamesUpper_LowerCaseKt" />
-        <item itemvalue="Kotlin.myPrograms.NamesCodeKt" />
-        <item itemvalue="Kotlin.rockPaperScissors.RockPaperScissorsKotlinKt" />
-        <item itemvalue="Kotlin.learningKotlin.ForLoopKt" />
       </list>
     </recent_temporary>
   </component>
