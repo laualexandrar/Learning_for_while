@@ -1,13 +1,14 @@
 package LearningClasses
 
-class DogInitialization (val name: String, var weight: Int, breed_param: String ){
+class DogInitialization(val name: String, var weight: Int, breed_param: String) {
     init {
         println("Dog $name has been created")
     }
 
     var activities = arrayOf("Walk")
     val breed = breed_param.toUpperCase()
-    var temperament: String = "mad "
+    var temperament: String =
+        "mad " // If I want to initialize the variable later I can lateinit var temperament: String
 
     init {
         println("The breed is $breed")
@@ -21,7 +22,7 @@ class DogInitialization (val name: String, var weight: Int, breed_param: String 
 
 fun main() {
 
-    val myDog = DogInitialization ("Fido", 67, "Samoyedo")
+    val myDog = DogInitialization("Fido", 67, "Samoyedo")
     println(myDog.toString())
 
 
