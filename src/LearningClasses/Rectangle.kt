@@ -18,3 +18,4 @@ fun main() {
         println("It is ${if (r[x].isSquare) " " else "not"} a square")
     }
 }
+
