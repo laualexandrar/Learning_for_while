@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec480129-5088-4b3a-9173-aa2de9c94ebe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LearningClasses/DVDPLayer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearningClasses/DogGettersAndSetters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearningClasses/Rectangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearningClasses/TapeDeck.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningInheritance/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningInheritance/Canine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningInheritance/Hippo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningInheritance/Roamable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningInheritance/Vehicle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningInheritance/Vet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningInheritance/Wolf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningPolymorphism/Appliance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learningPolymorphism/CoffeeMaker.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogInitialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogInitializationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogInitializationKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogGettersAndSetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogGettersAndSetters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogGettersAndSettersKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/LearningClasses/DogGettersAndSettersKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LearningCode/META-INF/LearningCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningCode/META-INF/LearningCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LearningClasses/DogInitialization.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearningClasses/DogInitialization.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LearningClasses/Rectangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LearningClasses/Rectangle.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +28,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -47,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.LearningClasses.DogGettersAndSettersKt">
+  <component name="RunManager" selected="Kotlin.learningInheritance.VetKt">
     <configuration name="LearningClasses.DVDPLayerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LearningCode" />
       <option name="VM_PARAMETERS" />
@@ -74,27 +80,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearningClasses.DogInitializationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="LearningClasses.RectangleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="LearningCode" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LearningClasses.DogInitializationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearningClasses.DrumKitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="LearningCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="LearningClasses.DrumKitKt" />
+      <option name="MAIN_CLASS_NAME" value="LearningClasses.RectangleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="learningInheritance.VetKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LearningCode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="learningInheritance.VetKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.learningInheritance.VetKt" />
+        <item itemvalue="Kotlin.LearningClasses.RectangleKt" />
         <item itemvalue="Kotlin.LearningClasses.DogGettersAndSettersKt" />
         <item itemvalue="Kotlin.LearningClasses.DVDPLayerKt" />
         <item itemvalue="Kotlin.LearningClasses.TapeDeckKt" />
-        <item itemvalue="Kotlin.LearningClasses.DogInitializationKt" />
-        <item itemvalue="Kotlin.LearningClasses.DrumKitKt" />
       </list>
     </recent_temporary>
   </component>
