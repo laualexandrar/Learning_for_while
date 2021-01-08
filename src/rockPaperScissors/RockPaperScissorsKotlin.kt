@@ -3,7 +3,7 @@ package rockPaperScissors
 fun main() {
 
     //get the game to choose an option
-    val options = arrayOf("Rock", "Paper", "Scissors")
+    val options = arrayOf("Rock", "Paper", "Scissors") // this is my array with the val options
 
     val gameChoice = getGameChoice(options)
     val userChoice = getUserChoice(options)
@@ -24,6 +24,7 @@ fun getUserChoice(optionsParam: Array<String>): String {
         println(".")
         //to read the user's response
         val userInput = readLine()
+
         //validate  the user Input
         if (userInput != null && userInput in optionsParam) {
             isValidChoice = true
